@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé Riche | Finance pour Jeunes Actifs</title>
+    <meta name="description" content="Résumés de livres pour maîtriser votre argent. Devenez riche en 15 minutes de lecture !">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>📘 Résumé Riche</h1>
+        <p>Les meilleurs livres de finance résumés pour les 18-35 ans.</p>
+    </header>
+
+    <!-- Livres -->
+    <section class="livres">
+        <!-- Livre 1 -->
+        <div class="livre-card">
+            <h2>Rich Dad Poor Dad</h2>
+            <p class="auteur">Robert Kiyosaki</p>
+            <p class="resume">Pourquoi les riches ne travaillent pas pour l'argent... et comment vous pouvez les imiter.</p>
+            <a href="#formulaire" class="bouton">Lire le résumé gratuit</a>
+        </div>
+
+        <!-- Livre 2 -->
+        <div class="livre-card">
+            <h2>L'Homme le plus riche de Babylone</h2>
+            <p class="auteur">George S. Clason</p>
+            <p class="resume">Les lois intemporelles de l'accumulation de richesse.</p>
+            <a href="#formulaire" class="bouton">Lire le résumé gratuit</a>
+        </div>
+    </section>
+
+    <!-- Formulaire Newsletter -->
+    <section id="formulaire" class="newsletter">
+        <h3>📩 Obtenez 1 résumé gratuit par semaine</h3>
+        <form action="https://formspree.io/f/xvojnzqw" method="POST">
+            <input type="email" name="email" placeholder="Votre email" required>
+            <button type="submit" class="bouton">Je veux les résumés !</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Résumé Riche | <a href="mailto:contact@resumeriche.com">Contact</a></p>
+        <p>Rejoignez-nous sur <a href="https://instagram.com/resumeriche" target="_blank">Instagram</a> !</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
